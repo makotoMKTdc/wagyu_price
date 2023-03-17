@@ -45,10 +45,16 @@ p {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    background-color: #17a2b8;
+    background-color: #DE660D;;
   }
 }
 
+#page-top a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
 
 .submit-color {
   background-color: #17a2b8;
