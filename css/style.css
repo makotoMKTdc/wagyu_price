@@ -32,6 +32,20 @@ p {
 @media screen and (min-width:576px) {
   .row {
     margin-bottom: 30px;
+  } 
+}
+
+@media screen and (max-width:575px) {
+  #page-top {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #17a2b8;
   }
 }
 
@@ -43,6 +57,8 @@ p {
   transition: all 0.4s;
   margin: 0 auto;
 }
+
+
 
 .submit-color:hover {
   opacity: 1.0;
@@ -61,4 +77,5 @@ footer {
 .card {
   border-radius: 0;
 }
+
 
